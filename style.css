@@ -1,0 +1,126 @@
+.box-fix{
+    position: relative;
+    top: 56px;
+}
+
+.bg-top{
+    background-image: url('bg.jpg');
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+    padding: 20px 0;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 1;
+}
+
+.fix-zindex{
+    position: relative;
+    z-index: 2;
+}
+
+.texto-bg{
+    color: white;
+    margin-top: 150px;
+}
+
+.custom-text{
+    color: white;
+}
+
+.btn-outline-primary{
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .texto-bg{
+        margin-top: 60px;
+    }
+}
+
+.chamada{
+    padding: 3px 0;
+}
+
+.fas{
+    font-size: 35px;
+}
+
+.sobre{
+    padding: 20px 0;
+    background: rgb(220,220,220);
+}
+
+.dif{
+    padding: 20px 0;
+}
+
+.dif .col-md-4{
+    margin-top: 20px;
+}
+
+.col-md-4.dotted h2{
+    border-bottom: 3px dotted #ccc;
+    padding-bottom: 10px;
+}
+
+.chamada-2{
+    padding: 15px;
+}
+
+.custom-ipt{
+    width: auto;
+}
+
+.custom-ipt .ipt-h2{
+    margin: 0 150px 0 100px;
+}
+
+.contato{
+    padding: 20px 0;
+}
+
+.limitador{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col-md-4 a span{
+    margin: 0 15px;
+    font-size: 25px;
+    color: white;
+}
+
+.footer{
+    padding: 5px 0;
+    background: #444;
+    color: white;
+    text-align: center;
+}
+
+/* media screen */
+
+@media screen and (max-width: 768px){
+    .texto-bg .btn-center{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .center-btn{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .custom-ipt .ipt-h2{
+        margin: 0 0 20px;
+        width: 100%;
+    }
+}
